@@ -84,7 +84,7 @@ body
 ==================================================*/
 .header
 {
-	background: url('../images/stars.jpg');
+	background: url('../images/denverdrawingfade.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -96,8 +96,8 @@ body
 }
 			/*navbar*/
 .navbar-default .navbar-brand{
-	border: 1px solid #fff;
-	color: #fff;
+	border: 1px solid black;
+	color: black;
 	font-size: 30px;
 	padding: 10px 20px;
 	height: auto;
@@ -105,10 +105,10 @@ body
 	letter-spacing: 5px;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-	color: #fff;
+	color: #313131;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFF;
+    background-color: #313131;
 }
 .navbar-fixed-top .navbar-toggle .icon-bar {
     background-color: #313131;
@@ -122,7 +122,7 @@ body
     padding-top: 50px;
 }
 .navbar-default .navbar-nav>li>a{
-	color: #fff;
+	color: #313131;
     /*text-transform: uppercase;*/
     padding-right: 20px;
     padding-left: 20px;
@@ -136,10 +136,10 @@ body
 }
 .navbar-default .navbar-nav>li>a:hover{
 	border: 1px solid rgba(255, 255, 255, 0.6);
-	color: #fff;
+	color: #313131;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-	color: #fff;
+	color: #313131;
 }
 .navbar-nav>li>a {
     padding-top: 8px;
@@ -151,28 +151,38 @@ body
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.6);
-    color: #fff;
+    color: #313131;
 }
 		/*Home*/
 .header-wrapper{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	padding-bottom: 225px;
 }
 .header-table{
 	display: table;
 	height: 70vh;
 	width: 100%;
 }
+
 .header-title{
 	font-size: 50px;
 	letter-spacing: 10px;
 	font-weight: 200;
-	/*color: black;*/
+	color: #313131;
 }
+
+@media only screen and (max-width: 480px) {
+
+   .header-title { font-size: 30px; }
+
+}
+
 .header-subtitle{
 	font-size: 20px;
 	letter-spacing: 3px;
+	color: #313131;
 }
 /*=================================================
 ||				4. Our Service
@@ -308,6 +318,10 @@ body
 	margin-top: 10px;
 }
 
+.modal-image {
+	text-align: right;
+}
+
 
 /*=================================================
 ||				8. Note
@@ -335,19 +349,34 @@ body
 }
 .fun-box{
 	border: 2px solid #313131;
+	/*border-radius: 50%;*/
 	text-align: center;
 	padding: 40px 0px;
-	font-size: ;
 }
 .number{
 	font-weight: 700;
-	font-size: 25px;
+	font-size: 22px;
 }
 .number-title{
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 400;
 }
+
+@media only screen and (max-width: 480px) {
+
+   .number { font-size: 14px; }
+   .number-title { font-size: 14px; }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+
+   .number { font-size: 12px; }
+   .number-title { font-size: 11px; }
+
+}
+
 .col-sm-6 .fun-box{
 	margin-bottom: 20px;
 }

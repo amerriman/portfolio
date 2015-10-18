@@ -87,10 +87,12 @@
 				<div class="col-sm-4 col-xs-6">
 					<div class="portfolio-item">
 						<div class="portfolio-img">
-							<img src="assets/images/comingsoon2.jpg" alt="port-1" class="port-item">
-							<div class="portfolio-img-hover">
-								<a href="#"><img src="assets/images/plus.png" alt="plus" class="plus"></a>
-							</div> <!-- /.portfolio-img-hover -->
+							<img src="assets/images/studycards.png" alt="port-1" class="port-item">
+							<a href="#" data-toggle="modal" data-target="#flashCardModal">
+								<div class="portfolio-img-hover">
+									<img src="assets/images/plus.png" alt="plus" class="plus">
+								</div> <!-- /.portfolio-img-hover -->
+							</a>
 						</div> <!-- /.portfolio-img -->
 						<div class="portfolio-item-details">
 							<div class="portfolio-item-name">
@@ -105,10 +107,12 @@
 				<div class="col-sm-4 col-xs-6">
 					<div class="portfolio-item">
 						<div class="portfolio-img">
-							<img src="assets/images/comingsoon2.jpg" alt="port-2" class="port-item">
-							<div class="portfolio-img-hover">
-								<a href="#"><img src="assets/images/plus.png" alt="plus" class="plus"></a>
-							</div> <!-- /.portfolio-img-hover -->
+							<img src="assets/images/translatemain.png" alt="port-2" class="port-item">
+							<a href="#" data-toggle="modal" data-target="#translatorModal">
+								<div class="portfolio-img-hover">
+									<img src="assets/images/plus.png" alt="plus" class="plus">
+								</div> <!-- /.portfolio-img-hover -->
+							</a>
 						</div> <!-- /.portfolio-img -->
 						<div class="portfolio-item-details">
 							<div class="portfolio-item-name">
@@ -124,9 +128,11 @@
 					<div class="portfolio-item">
 						<div class="portfolio-img">
 							<img src="assets/images/comingsoon2.jpg" alt="port-3" class="port-item">
-							<div class="portfolio-img-hover">
-								<a href="#"><img src="assets/images/plus.png" alt="plus" class="plus"></a>
-							</div> <!-- /.portfolio-img-hover -->
+							<a href="#" data-toggle="modal" data-target="#wineModal">
+								<div class="portfolio-img-hover">
+									<img src="assets/images/plus.png" alt="plus" class="plus">
+								</div> <!-- /.portfolio-img-hover -->
+							</a>
 						</div> <!-- /.portfolio-img -->
 						<div class="portfolio-item-details">
 							<div class="portfolio-item-name">
@@ -140,6 +146,64 @@
 				</div> <!-- /.col-md-4 -->
 	</section> <!-- /.portfolio -->
 
+
+<!-- Modals -->
+<!-- Modal Flash Cards -->
+<div class="modal fade" id="flashCardModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="flashCardModalLabel">Flash Cards</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Translator -->
+<div class="modal fade" id="translatorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="translatorModalLabel">Translatorsaurus</h4>
+      </div>
+      <div class="modal-body">
+        <img src="assets/images/translatemain.png" height="200px" width="auto" alt="RAWR" class="modal-image">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       <!--  <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Wine Match -->
+<div class="modal fade" id="wineModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="wineModalLabel">Wine Match</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 	<!-- Note -->
 <!-- 	<section class="note purple">

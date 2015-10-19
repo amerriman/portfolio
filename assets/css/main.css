@@ -176,8 +176,7 @@ body
 @media only screen and (max-width: 480px) {
 
    .header-title { font-size: 30px; }
-   .header-wrapper { padding-bottom: 50px; }
-
+   /*.header-wrapper { padding-bottom: 50px; }*/
 }
 
 .header-subtitle{

@@ -176,6 +176,7 @@ body
 @media only screen and (max-width: 480px) {
 
    .header-title { font-size: 30px; }
+   .header-wrapper { padding-bottom: 50px; }
 
 }
 
@@ -312,10 +313,28 @@ body
 	font-size: 13px;
 	color: #969595;
 }
-.port-heart{
-	float: right;
-	display: inline-block;
-	margin-top: 10px;
+
+
+.port-link{
+	/*float: right;*/
+	/*display: inline-block;*/
+	margin-top: 5px;
+	font-size: 30px;
+	color: #969595;
+	/*margin-right: 10px;*/
+	/*margin-left: 10px;*/
+}
+
+@media only screen and (max-width: 480px) {
+
+   .port-link { float: left;
+   							/*font-size: 18px;*/
+								/*display: inline-block;*/
+    }
+}
+
+.project-links {
+	color: #969595;
 }
 
 .modal-image {
@@ -365,9 +384,8 @@ body
 
 @media only screen and (max-width: 480px) {
 
-   .number { font-size: 14px; }
-   .number-title { font-size: 14px; }
-
+   .number { font-size: 12px; }
+   .number-title { font-size: 12px; }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 800px) {

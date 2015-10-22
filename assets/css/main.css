@@ -336,10 +336,44 @@ body
 	color: #969595;
 }
 
-.modal-image {
-	text-align: right;
+.modal-image-div {
+	text-align: center;
 }
 
+.modal-image {
+	height: 350px;
+	width: 425px;
+	padding: 4px;
+}
+
+@media only screen and (max-width: 480px) {
+   .modal-image {
+   		height: 200px;
+   		width: 275px;
+   		padding: 4px;
+    }
+}
+
+.modal-p {
+	font-family: 'Roboto', 'Open-Sans', sans-serif;
+	text-align: center;
+	/*color: orange;*/
+}
+
+.modal-p-main {
+	font-family: 'Roboto', 'Open-Sans', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	/*color: orange;*/
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.modal-tech{
+	color: #969595;
+	padding-left: 75px;
+	padding-right: 75px;
+}
 
 /*=================================================
 ||				8. Note
@@ -397,6 +431,7 @@ body
 .col-sm-6 .fun-box{
 	margin-bottom: 20px;
 }
+
 /*=================================================
 ||				10. Footer
 ==================================================*/

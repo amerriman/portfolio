@@ -315,22 +315,24 @@ body
 
 
 .port-link{
-	/*float: right;*/
-	/*display: inline-block;*/
 	margin-top: 5px;
 	font-size: 30px;
 	color: #969595;
-	/*margin-right: 10px;*/
-	/*margin-left: 10px;*/
 }
 
-@media only screen and (max-width: 480px) {
+.modal-port-link{
+	margin-top: 5px;
+  margin-left: 45%;
+	font-size: 30px;
+	color: #969595;
 
-   .port-link { float: left;
-   							/*font-size: 18px;*/
-								/*display: inline-block;*/
+}
+
+/*@media only screen and (max-width: 480px) {
+   .port-link {
+   		float: left;
     }
-}
+}*/
 
 .project-links {
 	color: #969595;
@@ -347,6 +349,9 @@ body
 }
 
 @media only screen and (max-width: 480px) {
+	 .port-link {
+   		float: left;
+    }
    .modal-image {
    		height: 200px;
    		width: 275px;
@@ -357,14 +362,12 @@ body
 .modal-p {
 	font-family: 'Roboto', 'Open-Sans', sans-serif;
 	text-align: center;
-	/*color: orange;*/
 }
 
 .modal-p-main {
 	font-family: 'Roboto', 'Open-Sans', sans-serif;
 	text-align: center;
 	font-size: 14px;
-	/*color: orange;*/
 	padding-left: 15%;
 	padding-right: 15%;
 }
@@ -373,6 +376,14 @@ body
 	color: #969595;
 	padding-left: 75px;
 	padding-right: 75px;
+}
+
+.dev-link {
+	color: #969595;
+}
+
+.dev-link:hover {
+	text-decoration: none;
 }
 
 /*=================================================
